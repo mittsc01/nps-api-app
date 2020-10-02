@@ -9,7 +9,7 @@
 <body>
     <h1>Search for National Parks by State</h1>
     <form>
-        <select name="states" size="10" required> 
+        <select id="states" name="states" size="10" required multiple> 
             <option value="AL">AL</option>
             <option value="AK">AK</option>
             <option value="AZ">AZ</option>
@@ -69,8 +69,8 @@
         
         
     </form>
-
-    <section id="display-results">
+    
+    <section id="display-results" class="hidden">
         
     </section>
     <p id="js-error-message"></p>
